@@ -4,5 +4,5 @@ import slick.jdbc.MySQLProfile.api._
 
 object Globals {
   // access to the the database
-  val DB = Database.forConfig("db")
+  val DB = Database.forConfig("database")
 }
